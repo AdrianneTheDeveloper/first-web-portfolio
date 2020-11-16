@@ -1,0 +1,107 @@
+/*importing google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cutive+Mono&display=swap');
+* {
+  box-sizing: border-box;
+}
+header div,
+main div,
+foot div, {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+/*styling the header container*/
+header {
+  background-color: #4a4e69;
+  text-align: center;
+  color: #c9ada7;
+}
+header {
+  box-sizing: border-box;
+  height: 200px;
+  border: 1px solid #4a4e69;
+  margin-bottom: -35px;
+}
+
+header h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  letter-spacing: 7px;
+  margin-bottom: -5px;
+}
+/*styling hr*/
+hr {
+border: 1px solid #22223b;
+width: 65%
+}
+
+header h2 {
+  font-family: "Cutive Mono", monospace;
+  font-size: 20px;
+  margin-top: 40px;
+}
+/*styling main container*/
+.center-text {
+  text-align: center;
+}
+.bold-text {
+  font-weight: 900;
+}
+.cutive-text {
+  font-family: "Cutive Mono", monospace;
+}
+.new-border {
+  border: 1px solid #c9ada7;
+}
+.padding {
+  padding: 10px 50px 50px 50px;
+}
+.new-margin {
+  margin-top: -40px;
+} 
+.about-font {
+  font-size: 16px;
+}
+main {
+  background-color: #c9ada7;
+  color: #4a4e69;
+  margin-bottom: -20px;
+}
+main img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  border-radius: 50%
+}
+
+main h2 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+main div {
+  font-family: "Cutive Mono", monospace;
+  font-size: 18px;
+  text-align: left;
+}
+
+main li {
+list-style-position: inside;
+}
+
+a:link {color: #22223b;}
+a:visited {color: #f2e9e4;}
+a:hover {color: #4a4e69;}
+a:active {color: #c9ada7;}
+
+.adjust-text {
+  text-align: right;
+}
+
+footer {
+  background-color: #4a4e69;
+}
+.footer-padding {
+  padding-bottom: 50% 
+}
