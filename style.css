@@ -41,7 +41,13 @@ header h2 {
   margin-top: 40px;
 }
 /*styling main container*/
-/*Below are reusable containers that I use throughout the main container when I want cascaded properties*/
+/*Below are reusable classes that I use throughout the main container when I want cascaded properties*/
+.amatic-text {
+  font-family: "Amatic SC", monospace;
+}
+.letter-spacing {
+  letter-spacing: 3px;
+}
 .center-text {
   text-align: center;
 }
